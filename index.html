@@ -7,6 +7,34 @@
     <title>Add Product Form</title>
 </head>
 <body>
-    
+    <h1>Add Video Game</h1>
+
+    <div id="validation-summary">
+        <p>Errors go here...</p>
+    </div>
+
+    <form action="">
+        <label for="title">Title: </label>
+        <input id="title" type="text">
+        <br>
+        <label for="price">Price:</label>
+        <input id="price" type="text">
+        <br>
+
+        <label for="rating">Rating:</label>
+        <select name="rating" id="rating">
+            <option value="">Please choose a rating</option><!--Default-->
+            <option value="">E</option>
+            <option value="">T</option>
+            <option value="">M</option>
+        </select>
+        <br>
+
+        <input type="checkbox" id="online">
+        <label for="online">Online</label>
+        <br>
+
+        <input type="button" value="Add New Video Game">
+    </form>
 </body>
 </html>
